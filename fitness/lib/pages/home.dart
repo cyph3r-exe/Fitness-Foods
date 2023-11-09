@@ -1,3 +1,5 @@
+// ignore_for_file: sort_child_properties_last
+
 import 'package:fitness/models/category_model.dart';
 import 'package:fitness/models/diet_modal.dart';
 import 'package:fitness/models/popular_model.dart';
