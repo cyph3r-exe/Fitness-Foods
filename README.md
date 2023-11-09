@@ -22,3 +22,5 @@ If you have any new feature update to any of the apps, just.. go haywire and get
 #HappyFluttering 
 
 -----
+
+PS: I will be putting all my knowledge base of flutter (notes, diagrames, tuts) into the [Wiki](https://github.com/cyph3r-exe/Project-Anubis/wiki) section. Kindly refer to that if you don't know where to start.
