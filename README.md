@@ -1,16 +1,24 @@
-# fitness
+# Introduction
+> ## Welcome to Project Anubis
+### Where I die, trying to learn flutter. 
+----
+This repository basically contains multiple projects I will be taking up, over the course of the next few days / weeks / months / years to eventually....... master the art of flutter. 
 
-A new Flutter project.
+### **Before we begin**
+A few things you might want to learn / implement beforehand
 
-## Getting Started
+- Installation of Flutter 
+- Working with Dart 
+- Basic concepts of Programming 
 
-This project is a starting point for a Flutter application.
+All the Projects mentioned in this Repository will be linked to a tutorial from where I have actually learned. 
+*HOWEVER* if it's an app built by me, I would suggest going through the complete code first and try tto understand it yourself before simply copying the project.
 
-A few resources to get you started if this is your first Flutter project:
+---
+## Also... 
+Feel free to contribute,
+If you have any new feature update to any of the apps, just.. go haywire and get a pull request. 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#HappyFluttering 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-----
