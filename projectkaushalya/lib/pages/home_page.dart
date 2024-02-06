@@ -15,10 +15,10 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 255, 238, 161),
+      backgroundColor: Color.fromARGB(221, 148, 216, 211),
       appBar: AppBar(
         title: const Text('Home'),
-        backgroundColor: const Color.fromARGB(255, 219, 193, 78),
+        backgroundColor: Color.fromARGB(199, 148, 216, 211),
       ),
       drawer: const NavigationDrawer(),
     );
