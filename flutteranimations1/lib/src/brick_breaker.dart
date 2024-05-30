@@ -3,6 +3,7 @@ import 'package:flame/components.dart';
 import 'package:flame/game.dart';
 import 'package:flutteranimations1/src/components/components.dart';
 import 'config.dart';
+import 'dart:math' as math;
 
 class BrickBreaker extends FlameGame {
   BrickBreaker() 
@@ -13,6 +14,7 @@ class BrickBreaker extends FlameGame {
       ),
   );
 
+  final rand = math.Random();
   double get height => size.x;
   double get width => size.y;
 
@@ -22,5 +24,15 @@ class BrickBreaker extends FlameGame {
     camera.viewfinder.anchor = Anchor.topLeft;
 
     world.add(PlayArea());
+
+
+    world.add(Ball(
+      velocity: Vector2((rand.nextDouble() - 0.5) * width, height * 0.2)
+        .normalized()
+        ..scale(height / 4),
+      position: size / 2, 
+      radius: ballRadius));
+
+      debugMode = true;
   }
 }
